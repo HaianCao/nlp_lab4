@@ -1,0 +1,83 @@
+🎓 Word2Vec Training Pipeline
+
+📁 Data: en_ewt-ud-train.txt
+💾 Output: word2vec_ewt.model
+
+📊 11877 sentences, 181528 words, 15996 unique
+
+🤖 Training model...
+✅ Vocabulary size: 8724
+💾 Saved: word2vec_ewt.model
+
+📍 Finding Similar Words:
+
+  'king' → Similar words:
+    • screen: 0.9963
+    • jack: 0.9963
+    • daily: 0.9962
+    • white: 0.9958
+    • challenging: 0.9956
+
+  'woman' → Similar words:
+    • eventually: 0.9937
+    • rat: 0.9922
+    • gives: 0.9905
+    • tame: 0.9898
+    • interview: 0.9896
+
+  'good' → Similar words:
+    • thing: 0.9376
+    • really: 0.9334
+    • doing: 0.9316
+    • idea: 0.9310
+    • still: 0.9300
+
+  'man' → Similar words:
+    • tire: 0.9913
+    • manager: 0.9903
+    • bear: 0.9894
+    • statement: 0.9892
+    • book: 0.9891
+
+  'queen' → Similar words:
+    • four: 0.9881
+    • incitement: 0.9874
+    • loss: 0.9869
+    • programs: 0.9863
+    • design: 0.9860
+
+🧩 Solving Analogies:
+
+  king - man + queen ≈ ?
+    Top predictions:
+       rooms: 0.9790
+       stores: 0.9783
+       innocent: 0.9750
+
+  good - better + bad ≈ ?
+    Top predictions:
+       helpful: 0.9221
+       nice: 0.9220
+       worth: 0.9109
+
+  man - men + woman ≈ ?
+    Top predictions:
+       eventually: 0.9728
+       issue: 0.9725
+       guy: 0.9719
+
+============================================================
+
+📂 Loading model from: word2vec_ewt.model
+✅ Model loaded successfully!
+   Vocabulary size: 8724
+   Vector dimension: 100
+
+🧪 Testing loaded model:
+   Similar to 'good':
+     • thing: 0.9376
+     • really: 0.9334
+     • doing: 0.9316
+============================================================
+
+✅ Complete!
