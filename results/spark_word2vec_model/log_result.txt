@@ -1,0 +1,28 @@
+======================================================================
+🚀 Word2Vec Training with PySpark
+======================================================================
+
+📦 Initializing Spark...
+✅ Spark initialized
+
+📁 Loading dataset...
+✅ Loaded 30,000 records
+
+🧹 Preprocessing text...
+✅ Preprocessing done and cached
+
+🤖 Training Word2Vec model (fast config)...
+✅ Model trained. Vocabulary size: 98,137
+
+💾 Saving model...
+✅ Model saved to spark_word2vec_model
+
+🎯 Demo: Top synonyms for 'computer' (if exists)
+   • desktop: 0.7716
+   • computers: 0.7010
+   • device: 0.6864
+   • laptop: 0.6854
+   • software: 0.6531
+
+🛑 Spark stopped. Training complete!
+======================================================================
